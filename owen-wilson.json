@@ -1,0 +1,22 @@
+{
+  "name": "owen-wilson-wow-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "heroku-postbuild": "cd client && npm install && npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-sslify": "^1.2.0",
+    "heroku-ssl-redirect": "^0.1.1",
+    "lodash.samplesize": "^4.2.0"
+  }
+}
