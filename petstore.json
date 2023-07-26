@@ -2,23 +2,23 @@
   "openapi": "3.0.0",
   "info": {
     "version": "1.0.0",
-    "title": "Swagger Petstore",
+    "title": "Farm to Basket Peaches",
     "license": {
       "name": "MIT"
     }
   },
   "servers": [
     {
-      "url": "http://petstore.swagger.io/v1"
+      "url": "http://farmfreshpeaches.swagger.io/v1"
     }
   ],
   "paths": {
-    "/pets": {
+    "/summerfarmstands": {
       "get": {
-        "summary": "List all pets",
-        "operationId": "listPets",
+        "summary": "Find California farmstands selling fresh peaches",
+        "operationId": "listFarms",
         "tags": [
-          "pets"
+          "fams"
         ],
         "parameters": [
           {
