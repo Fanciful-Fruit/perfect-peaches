@@ -2,7 +2,7 @@
   "openapi": "3.1.0",
   "info": {
     "title": "Peach Forager API",
-    "description": "https://docs.readme.com/docs/openapi-extensions",
+    "description": "Use our API to find the best peaches for picking across California!",
     "version": "1.0.0"
   },
   "servers": [
@@ -12,12 +12,12 @@
   ],
   "tags": [
     {
-      "name": "Custom code samples",
-      "description": "https://docs.readme.com/docs/openapi-extensions#custom-code-samples"
+      "name": "Northern California Locations",
+      "description": "https://capeachpicker.com/norcal-api"
     },
     {
-      "name": "Statically defined headers",
-      "description": "https://docs.readme.com/docs/openapi-extensions#static-headers"
+      "name": "Central California Locations",
+      "description": "https://capeachpicker.com/cencal-api"
     },
     {
       "name": "Toggling interactivity",
