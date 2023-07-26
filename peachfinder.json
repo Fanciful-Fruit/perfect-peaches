@@ -35,7 +35,7 @@
         ],
         "responses": {
           "200": {
-            "description": "A paged array of pets",
+            "description": "A paged array of available peach stands",
             "headers": {
               "x-next": {
                 "description": "A link to the next page of responses",
@@ -47,7 +47,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Pets"
+                  "$ref": "#/components/schemas/peaches"
                 }
               }
             }
@@ -65,10 +65,10 @@
         }
       },
       "post": {
-        "summary": "Create a pet",
-        "operationId": "createPets",
+        "summary": "Show Harvest Availability",
+        "operationId": "peachStock",
         "tags": [
-          "pets"
+          "peach harvests"
         ],
         "responses": {
           "201": {
