@@ -35,9 +35,9 @@
   "paths": {
     "/x-code-samples": {
       "post": {
-        "operationId": "x-readme_code-samples",
-        "summary": "Custom code samples with the \"x-readme.code-samples\" extension",
-        "description": "This is a demonstration of our handling of our `x-readme.code-samples` extension.\n\nhttps://docs.readme.com/docs/openapi-extensions#custom-code-samples",
+        "operationId": "Find NorCal Peaches",
+        "summary": "See where to pick in Northern California",
+        "description": "Connect this interactive foraging map to any major maps app, e.g., Google Maps or Apple Maps!",
         "tags": ["Custom code samples"],
         "x-readme": {
           "code-samples": [
