@@ -18,7 +18,7 @@
         "summary": "Find California farmstands selling fresh peaches",
         "operationId": "listFarms",
         "tags": [
-          "fams"
+          "Peach Farms"
         ],
         "parameters": [
           {
